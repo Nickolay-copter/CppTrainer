@@ -37,7 +37,7 @@ int main() {
 
     cout<< "two is "<< name_to_value["two"] <<"\n";
     // вывод длины вектора
-    cout <<"Длина вектора ы"<< nums.size() << "\n";
+    cout <<"Длина вектора "<< nums.size() << "\n";
     // cout - функция выводаы. << - оператор вывода
     cout << "Hello, world"<<"\n";
 
