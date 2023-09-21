@@ -22,6 +22,12 @@ int main(){
     }
     cout<< endl;
     cout<< "В векторе nums "<< quintity<<" пятёрок"<< endl;
+    // добавление элементов в вектор
+    nums.push_back(nums[1]);
+    for(int c : nums){
+        cout<< c <<", ";
+    }
+    cout<< endl;
     // количество элементов можно подсчитать короче
     int short_quantity = count(begin(nums), end(nums), 5);
     // begin и end - специальный способ задать последовательность в библиотеке алгоритмов
