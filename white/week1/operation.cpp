@@ -26,9 +26,10 @@ int main() {
     cout << w[0] << " "<< w[1] << endl;
     cout << v[0] << " "<< v[1] << endl;
 
-    int a = 11;
+    int a = 11, C;
     int b = 3;
     double b_d = 3;
+    C = a / b;
     // деление на цело так как типы int
     cout << a / b << endl;
     // деление с запятой
