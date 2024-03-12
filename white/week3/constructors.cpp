@@ -135,7 +135,9 @@ int main(){
     string spaces(10, ' ');
     Route route_custom; // конструктор по умолчанию
     Route route("Moscow", "Tuapse");
+    Route route1 = {"Sochi", "Tuapse"};
 
+    PrintRoute(route1);
     PrintRoute(Route());
     /* Компилятор видит, что функция принимает объект типа Route,
     компилятор поймёт, что так будет вызван конструктор по умолчанию

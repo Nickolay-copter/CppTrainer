@@ -122,13 +122,6 @@ void ReverseRoute(Route& route){
     route.SetDestination(old_source);
 }
 
-Route GetRoute(bool is_empty){
-    if (is_empty == true){
-        return {};
-    } else{ 
-        return {"Zvenogorod", "Istra"};
-    }
-}
 
 void Worthless(Route route){
     cout << 2 << "\n";
